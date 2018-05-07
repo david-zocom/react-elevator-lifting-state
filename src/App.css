@@ -1,0 +1,39 @@
+/*Elevator maintenance
+
+en div per våning, stylas med css om våningen är vald
+
+admin console: gå upp, gå ner, öppna dörr, stäng dörr
+
+inuti hissen: en button per våning, öppna dörr
+*/
+.elevator > div {
+  border: 1px solid lightgray;
+  padding: 8px;
+  margin: 4px;
+}
+.elevator h3 {
+  margin: 0px 0px 4px 0px;
+}
+.elevator button {
+  border: 1px solid darkgray;
+  background-color: white;
+  border-radius: 0.4em;
+  padding: 0.2em 0.4em;
+  box-shadow: 1px 2px 1px 1px rgba(0, 0, 255, .2);
+}
+.elevator button:hover {
+  background-color: gold;
+}
+.elevator .viewFloors > div {
+  border: 1px solid darkgray;
+  background-color: white;
+  border-radius: 1.2em;
+  padding: 4px;
+  width: 1.2em;
+  text-align: center;
+  display: inline-block;
+  margin: 8px 1px;
+}
+.elevator div.highlight {
+  background-color: lime;
+}
