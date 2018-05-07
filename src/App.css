@@ -1,11 +1,6 @@
-/*Elevator maintenance
-
-en div per våning, stylas med css om våningen är vald
-
-admin console: gå upp, gå ner, öppna dörr, stäng dörr
-
-inuti hissen: en button per våning, öppna dörr
-*/
+.elevator button:disabled {
+	background-color: hotpink;
+}
 .elevator > div {
   border: 1px solid lightgray;
   padding: 8px;
